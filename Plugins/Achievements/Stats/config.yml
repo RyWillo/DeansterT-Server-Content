@@ -1,0 +1,38 @@
+MySQL-User: root
+MySQL-Pass: p4ssw0rd
+MySQL-Host: localhost
+MySQL-Port: 3306
+MySQL-Database: minecraft
+MySQL-Prefix: Stats_
+ignoreCreative: false
+ignoreFlying: false
+ignoreAFK: false
+usePermissionsForTracking: true
+version: 1.37
+update: true
+debug: false
+sendStatsToGlobalServer: true
+signs:
+  insta-update: true
+  update-interval: 10
+disabledStats:
+- StatName1
+commandList:
+- Playtime
+- Block break
+- Block place
+- Death
+- Kill
+- Joins
+- Move
+useBetaFunctions: false
+snapshots:
+  enabled: false
+  timeToLive: 1W
+  interval: 1D
+  previous: 0
+cross-server:
+  enabled: false
+  mainServerHost: localhost
+  mainServerPort: 25500
+  isMainServer: false

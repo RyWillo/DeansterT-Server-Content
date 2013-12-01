@@ -1,0 +1,127 @@
+1: 
+  name: My First Block
+  goals:
+  - BLOCK_BREAK 1 TOTAL
+  rewards:
+    money: 100
+    commands:
+    - stats %player%
+  onComplete:
+    messages:
+    - You\'ve completed the %name% achievement!
+    - &4You got some money.
+#=====
+2: 
+  name: Block Breaker jr
+  goals:
+  - BLOCK_BREAK 500 TOTAL
+  rewards:
+    money: 250
+    commands:
+    - stats %player%
+  onComplete:
+    messages:
+    - You\'ve completed the %name% achievement!
+    - &4You got some money.
+#======
+3: 
+  name: Master Block Breaker
+  goals:
+  - BLOCK_BREAK 1500 TOTAL
+  rewards:
+    money: 500
+    commands:
+    - stats %player%
+  onComplete:
+    messages:
+    - You\'ve completed the %name% achievement!
+    - &4You got some money.
+#======
+4: 
+  name: Placed My First Block
+  goals:
+  - BLOCK_PLACE 1 TOTAL
+  rewards:
+    money: 100
+  onComplete:
+    messages:
+    - You\'ve completed the %name% achievement!
+    - &4You got some money.
+#=======
+5:
+  name: Block Placer
+  goals:
+  - BLOCK_BREAK 500 TOTAL
+  rewards:
+    money: 500
+    commands:
+    - stats %player%
+  onComplete:
+    messages:
+    - You\'ve completed the %name% achievement!
+    - &4You got some money.
+#=======
+6:
+  name: My First Kill
+  goals:
+  - KILL 1 TOTAL
+  rewards:
+    money: 100
+    commands:
+    - stats %player%
+  onComplete:
+    messages:
+    - You\'ve completed the %name% achievement!
+    - &4You got some money.
+#=======
+7:
+  name: My First Death
+  goals:
+  - DEATH 1 TOTAL
+  rewards:
+    money: 100
+    commands:
+    - stats %player%
+  onComplete:
+    messages:
+    - You\'ve completed the %name% achievement!
+    - &4You got some money.
+#=======
+6:
+  name: 10 Minutes Played
+  goals:
+  - PLAYTIME 600 TOTAL
+  rewards:
+    money: 300
+    commands:
+    - stats %player%
+  onComplete:
+    messages:
+    - You\'ve completed the %name% achievement!
+    - &4You got some money.
+#=======
+6:
+  name: 1 Hour Played
+  goals:
+  - PLAYTIME 3600 TOTAL
+  rewards:
+    money: 600
+    commands:
+    - stats %player%
+  onComplete:
+    messages:
+    - You\'ve completed the %name% achievement!
+    - &4You got some money.
+#=======
+6:
+  name: 1st Ever Command Done
+  goals:
+  - COMMANDSDONE 1 TOTAL
+  rewards:
+    money: 100
+    commands:
+    - stats %player%
+  onComplete:
+    messages:
+    - You\'ve completed the %name% achievement!
+    - &4You got some money.
