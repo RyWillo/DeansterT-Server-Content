@@ -3,7 +3,7 @@
 
 groups:
 
-  g:default:
+   g:default:
     permissions:
     - essentials.help
     - essentials.helpop
@@ -38,7 +38,7 @@ groups:
     - essentials.warp.list
     - essentials.worth
 #=====================================
-  g:trusted:
+   g:trusted:
     permissions:
     - essentials.afk
     - essentials.afk.auto
@@ -80,7 +80,7 @@ groups:
     - essentials.warp.list
     - essentials.worth
 #=====================================
-  g:builder:
+   g:builder:
     permissions:
     - essentials.afk
     - essentials.gamemode
@@ -123,7 +123,7 @@ groups:
     - essentials.warp.list
     - essentials.worth
 #=======================================
- g:mod:
+   g:mod:
     permissions:
     - essentials.afk.kickexempt
     - essentials.ban.notify
@@ -177,7 +177,7 @@ groups:
     - essentials.jail.allow.jails
     - essentials.jail.allow.togglejail
 #==================================================
-  g:vip:
+   g:vip:
     permissions:
     - essentials.afk
     - essentials.afk.auto
@@ -240,24 +240,14 @@ groups:
     - essentials.warp.list
     - essentials.worth
 #=====================================
-  g:admin:
+   g:admin:
     permissions:
     - essentials.*
 #=====================================
-  g:coowner:
+   g:coowner:
     permissions:
     - "*"
 #=====================================
-  g:owner:
+   g:owner:
     permissions:
     - "*"
-
-
-
-
-
-
-
-
-
-
