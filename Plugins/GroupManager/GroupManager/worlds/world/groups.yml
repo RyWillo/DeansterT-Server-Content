@@ -1,0 +1,74 @@
+# Groups HERE: NO PERMS HERE 
+
+groups:
+  Default:
+    default: true
+    permissions:
+    inheritance:
+    - g:default
+    info:
+      prefix: '&1Default'
+      build: true
+      suffix: ''
+#===================
+  Member:
+    default: false
+    permissions:
+    inheritance:
+    - g:member
+    info:
+      prefix: '&2Member'
+      build: true
+      suffix: ''
+#===================
+  Builder:
+    default: false
+    permissions:
+    inheritance:
+    - g:trusted
+    info:
+      prefix: '&4Builder'
+      build: true
+      suffix: ''
+#===================
+  Moderator:
+    default: false
+    permissions: []
+    inheritance:
+    - g:mod
+    info:
+      prefix: '&3Mod'
+      build: true
+      suffix: ''
+#==================
+  Admin:
+    default: false
+    permissions: []
+    inheritance:
+    - g:admin
+    info:
+      prefix: '&cAdmin'
+      build: true
+      suffix: ''
+#==================
+  Co-Owner:
+    default: false
+    permissions:
+    inheritance:
+    - g:admin
+    info:
+      prefix: '&4Co-Owner'
+      build: true
+      suffix: ''
+#===================
+  Owner:
+    default: false
+    permissions:
+    - '*'
+    - -vanish.*
+    inheritance:
+    - admin
+    info:
+      prefix: '&4Owner'
+      build: true
+      suffix: ''
