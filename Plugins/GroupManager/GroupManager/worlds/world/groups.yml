@@ -7,7 +7,7 @@ groups:
     inheritance:
     - g:default
     info:
-      prefix: '&1Default'
+      prefix: '<&1Default>
       build: true
       suffix: ''
 #===================
@@ -17,7 +17,7 @@ groups:
     inheritance:
     - g:member
     info:
-      prefix: '&2Member'
+      prefix: <&2Member>
       build: true
       suffix: ''
 #===================
@@ -27,7 +27,7 @@ groups:
     inheritance:
     - g:trusted
     info:
-      prefix: '&4Builder'
+      prefix: <&4Builder>
       build: true
       suffix: ''
 #===================
@@ -37,7 +37,7 @@ groups:
     inheritance:
     - g:mod
     info:
-      prefix: '&3Mod'
+      prefix: <&3Mod>
       build: true
       suffix: ''
 #==================
@@ -47,7 +47,7 @@ groups:
     inheritance:
     - g:admin
     info:
-      prefix: '&cAdmin'
+      prefix: '<&cAdmin>
       build: true
       suffix: ''
 #==================
@@ -57,7 +57,7 @@ groups:
     inheritance:
     - g:admin
     info:
-      prefix: '&4Co-Owner'
+      prefix: <&3Co-Owner>
       build: true
       suffix: ''
 #===================
@@ -69,6 +69,6 @@ groups:
     inheritance:
     - admin
     info:
-      prefix: '&4Owner'
+      prefix: <&6Owner>
       build: true
       suffix: ''
